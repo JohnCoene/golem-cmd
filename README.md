@@ -14,6 +14,9 @@ Create an app.
 golem-cli create myapp
 ```
 
+TODO
+
 - Add start app
 - Stop app
+- Add module
 - Plenty more?
