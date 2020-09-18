@@ -2,8 +2,12 @@
 
 A command line interface for the golem R package.
 
+## Install
+
+Install globally
+
 ```bash
-npm install golem-cmd
+npm install -g golem-cmd
 ```
 
 ## Usage
