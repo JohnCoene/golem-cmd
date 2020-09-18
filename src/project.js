@@ -10,5 +10,15 @@ module.exports = {
 
     spawn('Rscript', ['-e', 'golem::create_golem("' + path + '")'], { stdio: 'inherit' });
 
+  },
+  module: (name) => {
+
+    if(name === undefined){
+      console.error('Missing name');
+      return ;
+    }
+
+    spawn('Rscript', ['-e', 'golem::add_module("' + name + '")'], { stdio: 'inherit' });
+
   }
 }

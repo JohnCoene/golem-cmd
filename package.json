@@ -1,6 +1,6 @@
 {
-  "name": "golem-cli",
-  "version": "1.0.0",
+  "name": "golem-cmd",
+  "version": "1.1.0",
   "description": "A command line interface for the golem R package",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "John Coene  (jcoenep@gmail.com)",
   "license": "MIT",
   "bin": {
-    "golem-cli": "./index.js"
+    "golem-cmd": "./index.js"
   },
   "dependencies": {
     "child_process": "^1.0.2",
